@@ -1,7 +1,7 @@
 {
-  "name": "coinbase-commerce-node",
+  "name": "privacygate-node",
   "version": "1.0.4",
-  "description": "The Official Coinbase Commerce SDK for Node.js",
+  "description": "Unofficial PrivacyGate SDK for Node.js",
   "keywords": [
     "API",
     "bitcoin",
@@ -13,10 +13,10 @@
     "node": ">=8.17.0",
     "npm": ">=5.6.0"
   },
-  "homepage": "https://github.com/coinbase/coinbase-commerce-node",
+  "homepage": "https://github.com/privacyshore/privacygate-node",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coinbase/coinbase-commerce-node.git"
+    "url": "git://github.com/privacyshore/privacygate-node.git"
   },
   "main": "index.js",
   "scripts": {
