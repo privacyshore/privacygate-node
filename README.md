@@ -1,6 +1,6 @@
 # PrivacyGate
 
-The official Node.js library for the [PrivacyGate API](https://privacygate.io/docs/). (fork of privacygate-node, updated for privacy gate)
+Unofficial Node.js library for the [PrivacyGate API](https://privacygate.io/docs/). (fork of privacygate-node, updated for privacy gate)
 
 # Table of contents
 
