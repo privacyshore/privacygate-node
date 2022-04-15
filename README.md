@@ -1,8 +1,6 @@
-[![CircleCI](https://circleci.com/gh/coinbase/coinbase-commerce-node.svg?style=svg)](https://circleci.com/gh/coinbase/coinbase-commerce-node)
-# Coinbase Commerce
-**Note: This repository is not actively maintained.**
+# PrivacyGate
 
-The official Node.js library for the [Coinbase Commerce API](https://commerce.coinbase.com/docs/).
+The official Node.js library for the [PrivacyGate API](https://privacygate.io/docs/). (fork of privacygate-node, updated for privacy gate)
 
 # Table of contents
 
@@ -22,16 +20,16 @@ The official Node.js library for the [Coinbase Commerce API](https://commerce.co
 Node.js v0.10.48 and above are supported.
 
 ## Documentation
-For more details visit [Coinbase API docs](https://commerce.coinbase.com/docs/api/).
+For more details visit [PrivacyGate API docs](https://privacygate.io/docs/).
 
-To start using this library register an account on [Coinbase Commerce](https://commerce.coinbase.com/signup).
+To start using this library register an account on [PrivacyGate](https://dash.privacygate.io/register).
 You will find your ``API_KEY`` from User Settings.
 
 Next initialize a ``Client`` for interacting with the API. The only required parameter to initialize a client is ``apiKey``, however, you can also pass in ``baseUrl``, ``apiVersion``  and ``timeout``.
 Parameters can be also be set post-initialization:
 ``` js
-var coinbase = require('coinbase-commerce-node');
-var Client = coinbase.Client;
+var privacygate = require('privacygate-node');
+var Client = privacygate.Client;
 
 var clientObj = Client.init('API_KEY');
 clientObj.setRequestTimeout(3000);
@@ -62,28 +60,28 @@ All errors that occur during any interaction with the API will be raised as exce
 
 Install with ``npm``:
 ``` sh
-npm install coinbase-commerce-node --save
+npm install privacygate-node --save
 ```
 
 Type definitions are available for TypeScript users:
 ```sh
-npm install @types/coinbase-commerce-node --save-dev
+npm install @types/privacygate-node --save-dev
 ```
 ## Usage
 ``` js
-var coinbase = require('coinbase-commerce-node');
-var Client = coinbase.Client;
+var privacygate = require('privacygate-node');
+var Client = privacygate.Client;
 
 Client.init('API_KEY');
 ```
 ## Checkouts 
-[Checkouts API docs](https://commerce.coinbase.com/docs/api/#checkouts)
+[Checkouts API docs](https://privacygate.io/docs/#checkouts)
 More examples on how to use checkouts can be found in the [`examples/resources/checkout.js`](examples/resources/checkout.js) file
 
 ### Load checkout resource class
 ``` js
-var coinbase = require('coinbase-commerce-node');
-var Checkout = coinbase.resources.Checkout;
+var privacygate = require('privacygate-node');
+var Checkout = privacygate.resources.Checkout;
 ```
 ### Retrieve
 ``` js
@@ -191,13 +189,13 @@ Checkout.all(params, function (error, list) {
 
 ```
 ## Charges
-[Charges API docs](https://commerce.coinbase.com/docs/api/#charges)
+[Charges API docs](https://privacygate.io/docs/#charges)
 More examples on how to use charges can be found in the [`examples/resources/charge.js`](examples/resources/charge.js) file
 
 ### Load charge resource class
 ``` js
-var coinbase = require('coinbase-commerce-node');
-var Charge = coinbase.resources.Charge;
+var privacygate = require('privacygate-node');
+var Charge = privacygate.resources.Charge;
 ```
 ### Retrieve
 ``` js
@@ -254,13 +252,13 @@ Charge.all({}, function (error, list) {
 });
 ```
 ## Events
-[Events API Docs](https://commerce.coinbase.com/docs/api/#events)
+[Events API Docs](https://privacygate.io/docs/#events)
 More examples on how to use events can be found in the [`examples/resources/event.js`](examples/resources/event.js) file
 
 ### Load event resource class
 ``` js
-var coinbase = require('coinbase-commerce-node');
-var Event = coinbase.resources.Event;
+var privacygate = require('privacygate-node');
+var Event = privacygate.resources.Event;
 ```
 ### Retrieve
 ``` js
@@ -317,11 +315,11 @@ chargeObj.save().then(function (response) {
 ```
 
 ## Webhooks
-Coinbase Commerce signs the webhook events it sends to your endpoint, allowing you to validate and verify that they weren't sent by someone else.
+PrivacyGate signs the webhook events it sends to your endpoint, allowing you to validate and verify that they weren't sent by someone else.
 You can find a simple example of how to use this with Express in the [`examples/webhook`](examples/webhook) folder
 ### Verify Signature header
 ``` js
-var Webhook = require('coinbase-commerce-node').Webhook;
+var Webhook = require('privacygate-node').Webhook;
 
 try {
     Webhook.verifySigHeader(rawBody, signature, sharedSecret);
