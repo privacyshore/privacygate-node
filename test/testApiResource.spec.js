@@ -11,7 +11,7 @@ describe('ApiResource', function () {
 			'created_at': '2018-07-24T07:33:35Z',
 			'description': 'Mastering the Transition to the Information Age',
 			'expires_at': '2018-07-24T07:48:35Z',
-			'hosted_url': 'https://commerce.coinbase.com/charges/7C7V5ECK'
+			'hosted_url': 'https://pay.privacygate.io/charges/7C7V5ECK'
 		});
 
 		assert.equal(resource.code, '7C7V5ECK');
@@ -24,7 +24,7 @@ describe('ApiResource', function () {
 			'created_at': '2018-07-24T07:33:35Z',
 			'description': 'Mastering the Transition to the Information Age',
 			'expires_at': '2018-07-24T07:48:35Z',
-			'hosted_url': 'https://commerce.coinbase.com/charges/7C7V5ECK'
+			'hosted_url': 'https://pay.privacygate.io/charges/7C7V5ECK'
 		};
 		var resource = new ApiResource(data);
 		var props = resource.getProps();
@@ -40,7 +40,7 @@ describe('ApiResource', function () {
 			'created_at': '2018-07-24T07:33:35Z',
 			'description': 'Mastering the Transition to the Information Age',
 			'expires_at': '2018-07-24T07:48:35Z',
-			'hosted_url': 'https://commerce.coinbase.com/charges/7C7V5ECK'
+			'hosted_url': 'https://pay.privacygate.io/charges/7C7V5ECK'
 		};
 		var resource = new ApiResource(data);
 
@@ -59,7 +59,7 @@ describe('ApiResource', function () {
 			'created_at': '2018-07-24T07:33:35Z',
 			'description': 'Mastering the Transition to the Information Age',
 			'expires_at': '2018-07-24T07:48:35Z',
-			'hosted_url': 'https://commerce.coinbase.com/charges/7C7V5ECK',
+			'hosted_url': 'https://pay.privacygate.io/charges/7C7V5ECK',
 			'meta': {
 				'prop1': 'test1',
 				'prop2': 'test2'
@@ -78,7 +78,7 @@ describe('ApiResource', function () {
 			'created_at': '2018-07-24T07:33:35Z',
 			'description': 'Mastering the Transition to the Information Age',
 			'expires_at': '2018-07-24T07:48:35Z',
-			'hosted_url': 'https://commerce.coinbase.com/charges/7C7V5ECK',
+			'hosted_url': 'https://pay.privacygate.io/charges/7C7V5ECK',
 			'meta': {
 				'prop1': 'test1',
 				'prop2': 'test2'

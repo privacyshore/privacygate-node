@@ -10,7 +10,7 @@ describe('Client', function () {
 
 		assert.equal(clientObj.getApiKey(), testApiKey);
 		assert.equal(clientObj.getApiVersion(), '2018-03-22');
-		assert.equal(clientObj.getBaseApiUrl(), 'https://api.commerce.coinbase.com/');
+		assert.equal(clientObj.getBaseApiUrl(), 'https://api.privacygate.io/');
 		assert.equal(clientObj.getRequestTimeout(), 3000);
 	});
 
@@ -55,7 +55,7 @@ describe('Client', function () {
 		var testApiKey = 'some_test_key';
 		var clientObj = Client.init(testApiKey);
 		var anotherTestApiKey = 'another_test_api_key';
-		var baseApiUrl = 'https://api.commerce.coinbase.com/';
+		var baseApiUrl = 'https://api.privacygate.io/';
 		var apiVersion = '2018-03-22';
 
 		clientObj.setApiKey(anotherTestApiKey);

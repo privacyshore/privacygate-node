@@ -1,11 +1,11 @@
 {
-    "name": "resources-example-coinbase-commerce-node",
+    "name": "resources-example-privacygate",
     "version": "1.0.0",
-    "description": "Examples for coinbase commerce",
+    "description": "Examples for privacygate commerce",
     "scripts": {},
-    "author": "Coinbase",
+    "author": "PrivacyGate",
     "license": "MIT",
     "dependencies": {
-        "coinbase-commerce-node": "^1.0.1"
+        "privacygate": "^1.0.1"
     }
 }

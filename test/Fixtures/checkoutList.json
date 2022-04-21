@@ -10,8 +10,8 @@
       "911fb68e-f410-4f55-8925-0d587b323fe5",
       "427f6dea-1421-4c3e-8f3e-75b49fc4e953"
     ],
-    "previous_uri": "https://api.commerce.coinbase.com/checkouts?ending_before=911fb68e-f410-4f55-8925-0d587b323fe5&limit=2&order=asc",
-    "next_uri": "https://api.commerce.coinbase.com/checkouts?limit=2&order=asc&starting_after=427f6dea-1421-4c3e-8f3e-75b49fc4e953"
+    "previous_uri": "https://api.privacygate.io/checkouts?ending_before=911fb68e-f410-4f55-8925-0d587b323fe5&limit=2&order=asc",
+    "next_uri": "https://api.privacygate.io/checkouts?limit=2&order=asc&starting_after=427f6dea-1421-4c3e-8f3e-75b49fc4e953"
   },
   "data": [
     {

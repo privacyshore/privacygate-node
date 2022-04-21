@@ -1,8 +1,8 @@
 'use strict';
 
-var coinbase = require('coinbase-commerce-node');
-var Client = coinbase.Client;
-var Checkout = coinbase.resources.Checkout;
+var privacygate = require('privacygate');
+var Client = privacygate.Client;
+var Checkout = privacygate.resources.Checkout;
 
 Client.init('YOUR_API_KEY');
 

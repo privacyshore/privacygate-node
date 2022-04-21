@@ -1,6 +1,6 @@
 # PrivacyGate
 
-Unofficial Node.js library for the [PrivacyGate API](https://privacygate.io/docs/). (fork of coinbase-commerce-node, updated for privacy gate)
+Unofficial Node.js library for the [PrivacyGate API](https://privacygate.io/docs/).
 
 # Table of contents
 

@@ -3,7 +3,7 @@
 var assert = require('chai').assert,
 	buildApiError = require('../lib/buildApiError'),
 	ApiError = require('../lib/Errors/ApiError'),
-	CoinbaseError = require('../lib/Errors/CoinbaseError'),
+	PrivacyGateError = require('../lib/Errors/PrivacyGateError'),
 	InvalidRequestError = require('../lib/Errors/InvalidRequestError'),
 	AuthenticationError = require('../lib/Errors/AuthenticationError'),
 	ResourceNotFoundError = require('../lib/Errors/ResourceNotFoundError'),
@@ -126,9 +126,9 @@ describe('test for buildApiError', function () {
 		});
 	});
 
-	it('CoinbaseError should be correctly initialized', function () {
+	it('PrivacyGateError should be correctly initialized', function () {
 		var message = 'Test Message';
-		var errorObj = new CoinbaseError(message);
+		var errorObj = new PrivacyGateError(message);
 
 		assert.equal(errorObj.message, message);
 	});

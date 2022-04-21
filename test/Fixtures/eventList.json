@@ -10,8 +10,8 @@
       "cce71734-b624-49ae-bd31-edd59379cbe5",
       "1c969c6d-426c-473f-906b-538c2e0e6e46"
     ],
-    "previous_uri": "https://api.commerce.coinbase.com/events?ending_before=cce71734-b624-49ae-bd31-edd59379cbe5&limit=2",
-    "next_uri": "https://api.commerce.coinbase.com/events?limit=2&starting_after=1c969c6d-426c-473f-906b-538c2e0e6e46"
+    "previous_uri": "https://api.privacygate.io/events?ending_before=cce71734-b624-49ae-bd31-edd59379cbe5&limit=2",
+    "next_uri": "https://api.privacygate.io/events?limit=2&starting_after=1c969c6d-426c-473f-906b-538c2e0e6e46"
   },
   "data": [
     {
@@ -45,7 +45,7 @@
         },
         "created_at": "2018-07-24T07:33:35Z",
         "expires_at": "2018-07-24T07:48:35Z",
-        "hosted_url": "https://commerce.coinbase.com/charges/7C7V5ECK",
+        "hosted_url": "https://pay.privacygate.io/charges/7C7V5ECK",
         "description": "Mastering the Transition to the Information Age",
         "pricing_type": "no_price"
       },
@@ -80,7 +80,7 @@
         },
         "created_at": "2018-07-24T07:33:35Z",
         "expires_at": "2018-07-24T07:48:35Z",
-        "hosted_url": "https://commerce.coinbase.com/charges/7C7V5ECK",
+        "hosted_url": "https://pay.privacygate.io/charges/7C7V5ECK",
         "description": "Mastering the Transition to the Information Age",
         "pricing_type": "no_price"
       },

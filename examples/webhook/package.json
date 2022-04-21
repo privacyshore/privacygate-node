@@ -1,14 +1,14 @@
 {
-    "name": "webhook-example-coinbase-commerce-node",
+    "name": "webhook-example-privacygate",
     "version": "1.0.0",
-    "description": "Webhook verification for coinbase commerce",
+    "description": "Webhook verification for privacygate commerce",
     "main": "webhook.js",
     "scripts": {},
-    "author": "Coinbase",
+    "author": "PrivacyGate",
     "license": "MIT",
     "dependencies": {
         "body-parser": "^1.17.1",
-        "coinbase-commerce-node": "^1.0.1",
+        "privacygate": "^1.0.1",
         "express": "^4.15.2"
     }
 }

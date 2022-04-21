@@ -21,5 +21,5 @@ Web Interface                 http://127.0.0.1:4040
 Forwarding                    http://cbfcdae9.ngrok.io -> localhost:3000
 Forwarding                    https://cbfcdae9.ngrok.io -> localhost:3000
 
-Copy the "https" link (in this case https://cbfcdae9.ngrok.io) to your clipboard and then paste it into the Settings\Webhook section of Coinbase Commerce's admin page.
+Copy the "https" link (in this case https://cbfcdae9.ngrok.io) to your clipboard and then paste it into the Settings\Webhook section of PrivacyGate Commerce's admin page.
 Send test request.

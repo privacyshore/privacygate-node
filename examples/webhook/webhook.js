@@ -4,7 +4,7 @@
  * To run this example please read README.md file
  */
 var Express = require('express');
-var Webhook = require('coinbase-commerce-node').Webhook;
+var Webhook = require('privacygate').Webhook;
 /**
  * Past your webhook secret from Settings/Webhook section
  */

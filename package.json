@@ -5,7 +5,7 @@
   "keywords": [
     "API",
     "bitcoin",
-    "coinbase",
+    "privacygate",
     "commerce",
     "payments"
   ],
@@ -24,7 +24,7 @@
     "lint": "eslint lib/** test/** index.js",
     "coverage": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha"
   },
-  "author": "Coinbase",
+  "author": "PrivacyGate",
   "license": "MIT",
   "dependencies": {
     "lodash": "4.17.19",

@@ -4,7 +4,7 @@ var fs = require('fs'),
 	path = require('path'),
 	nock = require('nock');
 
-var TEST_BASE_URI = 'https://api.commerce.coinbase.com/';
+var TEST_BASE_URI = 'https://api.privacygate.io/';
 
 function loadResponse(file) {
 	var filePath = path.join(__dirname, 'Fixtures', file);

@@ -14,7 +14,7 @@ var errors = {
 	InternalServerError: require('./lib/Errors/InternalServerError'),
 	ServiceUnavailableError: require('./lib/Errors/ServiceUnavailableError'),
 	ApiError: require('./lib/Errors/ApiError'),
-	CoinbaseError: require('./lib/Errors/CoinbaseError'),
+	PrivacyGateError: require('./lib/Errors/PrivacyGateError'),
 	SignatureVerificationError: require('./lib/Errors/SignatureVerificationError'),
 	InvalidResponseError: require('./lib/Errors/InvalidResponseError')
 };
